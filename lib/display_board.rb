@@ -2,4 +2,5 @@
 def display_board
 row = {"   " + 124.chr + "   " + 124.chr + "   "}
 line = 11.times {42.chr}
+puts row + line
 end
